@@ -7,7 +7,7 @@ set(XATLAS_SRC "source/xatlas/xatlas.cpp")
 
 set(XATLAS_HEADERS "source/xatlas/xatlas.h")
 
-add_library(xatlas ${XATLAS_SRC} ${XATLAS_HEADERS})
+add_library(xatlas STATIC ${XATLAS_SRC} ${XATLAS_HEADERS})
 
 target_include_directories(
     xatlas
