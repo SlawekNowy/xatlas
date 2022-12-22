@@ -61,6 +61,8 @@ Copyright (c) 2012 Brandon Pelfrey
 #endif
 #endif
 
+#define XA_DEBUG_ASSERT(a)
+
 #ifndef XA_PROFILE
 #define XA_PROFILE 0
 #endif
